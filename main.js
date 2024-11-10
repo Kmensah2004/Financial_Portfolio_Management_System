@@ -4,7 +4,7 @@ import { calculatePortfolioValue, getPortfolioAllocation } from "./portfolio.js"
 import Transaction from "./transaction.js";
 
 console.log("Assets:", assets);
-console.log("Total Portfolio Value:", calculatePortfolioValue(assets));
+console.log("Portfolio Value:", calculatePortfolioValue(assets));
 console.log("Portfolio Allocations:", getPortfolioAllocation(assets));
 
 // Create transactions for our assets in the portfolio
